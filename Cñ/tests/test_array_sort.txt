@@ -1,0 +1,16 @@
+entero main() {
+    arreglo entero matriz[6] = {64, 34, 25, 12, 22, 11};
+    entero n = longitud(matriz);
+    
+    para (entero i = 0; i < n - 1; i = i + 1) {
+        para (entero j = 0; j < n - i - 1; j = j + 1) {
+            si (matriz[j] > matriz[j + 1]) {
+                entero temp = matriz[j];
+                matriz[j] = matriz[j + 1];
+                matriz[j + 1] = temp;
+            }
+        }
+    }
+    
+    regresa matriz[n / 2];
+}

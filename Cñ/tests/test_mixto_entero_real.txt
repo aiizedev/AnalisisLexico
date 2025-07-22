@@ -1,0 +1,6 @@
+real main() {
+    entero a = 10;
+    real b = 3.0;
+    real division = a / b;
+    regresa division;
+}

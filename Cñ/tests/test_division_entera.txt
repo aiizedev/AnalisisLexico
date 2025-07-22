@@ -1,0 +1,6 @@
+entero main() {
+    entero a = 10;
+    entero b = 3;
+    entero resultado = a / b;
+    regresa resultado;
+}

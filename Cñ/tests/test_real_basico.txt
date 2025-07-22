@@ -1,0 +1,6 @@
+real main() {
+    real pi = 3.14159;
+    real radio = 2.5;
+    real area = pi * radio * radio;
+    regresa area;
+}

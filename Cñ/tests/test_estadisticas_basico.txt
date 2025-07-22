@@ -1,0 +1,6 @@
+entero main() {
+    arreglo entero notas[8] = {85, 90, 78, 92, 88, 85, 95, 87};
+    real promedio_notas;
+    promedio_notas = Estadisticas.promedio(notas);
+    regresa promedio_notas;
+}

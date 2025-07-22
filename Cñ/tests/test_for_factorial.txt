@@ -1,0 +1,7 @@
+entero main() {
+    entero factorial = 1;
+    para (entero n = 5; n > 0; n = n - 1) {
+        factorial = factorial * n;
+    }
+    regresa factorial;
+}

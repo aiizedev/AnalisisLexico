@@ -1,0 +1,9 @@
+entero main() {
+    arreglo entero fibonacci[10];
+    fibonacci[0] = 0;
+    fibonacci[1] = 1;
+    para (entero i = 2; i < longitud(fibonacci); i = i + 1) {
+        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+    }
+    regresa fibonacci[9];
+}

@@ -1,0 +1,7 @@
+entero main() {
+    entero suma = 0;
+    para (entero i = 1; i <= 5; i = i + 1) {
+        suma = suma + i;
+    }
+    regresa suma;
+}
