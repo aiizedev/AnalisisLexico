@@ -1,0 +1,21 @@
+entero main() {
+    entero beta=2;
+    entero tau=3;
+    arreglo real esperado[beta*tau];
+    real alpha = 4.7;
+    arreglo real beta[beta] = {5.4, -9.2};
+    arreglo real tau[tau] = {-7.4, 1.2, 0.58};
+
+    
+    entero index = 0;
+
+    para (entero i = 0; i < 2; i = i + 1) {
+        para (entero j = 0; j < 3; j = j + 1) {
+            esperado[index] = alpha + beta[i] + tau[j];
+            index = index + 1;
+        }
+    }
+
+ regresa esperado;
+   
+}

@@ -61,13 +61,13 @@ def t_IDENTIFICADOR(t):
 
 # Token for numbers
 def t_NUMERO(t):
-    r'\d+(\.\d+)?'
+    r'-?\d+(\.\d+)?'
     t.value = float(t.value) if '.' in t.value else int(t.value)
     return t
 
 # Token for float literals with special handling
 def t_FLOTANTE(t):
-    r'\d+\.\d+'
+    r'-?\d+\.\d+'
     t.type = 'NUMERO'
     t.value = float(t.value)
     return t
